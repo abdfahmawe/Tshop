@@ -1,0 +1,18 @@
+@import url(base.css);
+
+.category {
+  background-color: #fff;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0px 4px 8px #aaaaaa;
+  margin: 10px;
+  text-align: center;
+}
+.Products .product {
+  background-color: #fff;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0px 4px 8px #aaaaaa;
+  margin: 10px;
+  text-align: center;
+}
