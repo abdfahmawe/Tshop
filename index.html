@@ -7,17 +7,68 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="Icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h1>OrderManager</h1>
+          </div>
+          <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="Nav">
+            <a class="selected" href="index.html">Dashboard</a>
+            <a href="Catalog-file/Catalog.html">Catalog</a>
+            <a href="Cart-file/Cart.html">Cart</a>
+            <a href="History-file/History.html">History</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+
     <main>
       <section class="categories">
         <div class="container">
           <div class="row"></div>
         </div>
       </section>
+      <section class="countdown">
+        <div class="container">
+          <h2>متبقي لرمضان</h2>
+          <div class="contdown-timer">
+            <div class="time">
+              days :
+              <span id="days"> days</span>
+            </div>
+            <div class="time">
+              Hourse :
+              <span id="Hourse"> Hourse</span>
+            </div>
+            <div class="time">
+              Muinets :
+              <span id="Muinets"> Muinets</span>
+            </div>
+            <div class="time">
+              Second :
+              <span id="Second"> Second</span>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="Products">
         <div class="container">
           <h1>products</h1>
           <div class="row"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="pagination-container">
+          <ul class="pagination"></ul>
         </div>
       </section>
     </main>
